@@ -1,4 +1,4 @@
-## Features
+## Features (TODO)
 1. Changelog && semver
 2. CI/CD (Github actions)
 3. Swagger
@@ -16,3 +16,5 @@
 15. systemctl
 16. load balancer with HAProxy
 17. clusters (programmatically) https://www.geeksforgeeks.org/how-to-create-load-balancing-servers-using-node-js/
+18. PDF generating (non-blocking)
+19. Sending emails
