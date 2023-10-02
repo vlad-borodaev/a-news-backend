@@ -1,6 +1,11 @@
-import { ARTICLE_COMMANDS, IArticle, IArticleCommand, STREAMS } from "modules/articles/article.types";
-import ArticleEventHandler from "modules/articles/article.event";
-import client from "config/redis.config";
+import {
+    ARTICLE_COMMANDS,
+    IArticle,
+    IArticleCommand,
+    STREAMS,
+} from "@modules/articles/article.types";
+import ArticleEventHandler from "@modules/articles/article.event";
+import client from "@config/redis.config";
 import helpers from "./helpers";
 
 const articleEventHandler = new ArticleEventHandler();

@@ -1,5 +1,5 @@
 import { v4 as uuid } from "uuid";
-import client from "config/redis.config";
+import client from "@config/redis.config";
 import {
     ARTICLE_COMMANDS,
     IAddArticleDTO,
@@ -7,8 +7,8 @@ import {
     STREAMS,
 } from "./article.types";
 import getArticleModel from "./models/get-article";
-import helpers from "modules/app/helpers";
-import eventHandler from "modules/app/event-handler";
+import helpers from "@modules/app/helpers";
+import eventHandler from "@modules/app/event-handler";
 
 class ArticleCommandHandler {
     async addArticleOrThrow(payload: IAddArticleDTO): Promise<void> {

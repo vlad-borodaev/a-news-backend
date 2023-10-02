@@ -1,6 +1,6 @@
 import express, { Router } from "express";
 
-import articleRoute from "../articles/article.route";
+import articleRoute from "@modules/articles/article.route";
 
 interface IRoute {
     path: string;

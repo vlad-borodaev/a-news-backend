@@ -4,10 +4,10 @@ import cors from "cors";
 import dotenv from "dotenv";
 dotenv.config();
 
-import "config/mongoose.config";
-import "config/redis.config";
+import "@config/mongoose.config";
+import "@config/redis.config";
 
-import AppRoutes from "modules/app/app.route";
+import AppRoutes from "@modules/app/app.route";
 
 const app: Application = express();
 
